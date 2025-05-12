@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header .logo img {
+  height: 50px;
+}
+
+.header .search-bar input {
+  width: 300px;
+  padding: 5px;
+}
+
+.header .currency-selector select {
+  padding: 5px;
+}
+
+.header .cart {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header .cart img {
+  height: 30px;
+}
+
+.header .menu-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header .menu-button {
+  background-color: wheat;
+  color: black;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.header .menu-container:hover .dropdown-menu {
+  display: block;
+}
+
+.header .dropdown-menu a {
+  display: block;
+  color: wheat;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.header .dropdown-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Login Page Styles */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  background-color: #f8f9fa;
+}
+
+.login-page .form {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.login-page .form .login-header {
+  text-align: center;
+}
+
+.login-page .form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-page .form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-page .form .message {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-page .form .message a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-page .form .message a:hover {
+  text-decoration: underline;
+}
+.login-form button:hover{
+  background-color: #007bff;
+  color: aqua;
+}
+
+/* Footer Styles */
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer h3 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 5px;
+}
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer .subscribe,
+.footer .social {
+  text-align: center;
+}
+.footer .subscribe input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  margin-right: 10px;
+}
+.footer .subscribe input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer .social i1 {
+  font-size: 35px;
+  margin-top: 2%;
+}
+.footer .social i2 {
+    font-size: 35px;
+    margin-left: 2%;
+  }
+  .footer .social i3 {
+    font-size: 35px;
+    margin-left: 2%;
+  }
+  .footer .social i4 {
+    font-size: 35px;
+    margin-left: 2%;
+  }
+.footer .social i1:hover{
+    background-color: #000;
+    color:burlywood;
+}
+.footer .social i2:hover{
+    background-color: #000;
+    color:burlywood;
+}
+    .footer .social i3:hover{
+        background-color: #000;
+        color:burlywood;
+    }
+    .footer .social i4:hover{
+        background-color: #000;
+        color:burlywood;
+    }
+
+.footer .bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
